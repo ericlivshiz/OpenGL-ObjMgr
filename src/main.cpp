@@ -2,8 +2,7 @@
 
 #include "Application.h"
 
-
-// THIS PROGAM IS BROKEN BECAUSE THE SHADER INSTANTIATION IN "SQUARE" NEVER GETS CALLED
+// Objmgr has defines that show scenes, only demo has camera mouse and scroll
 
 int main()
 {

@@ -10,7 +10,7 @@ class Window
 public:
 	Window();
 
-	GLFWwindow* Get_Window() { return window; }
+	GLFWwindow* Get_Window()	{ return window; }
 	int Get_Width()				{ return width; }
 	int Get_Height()			{ return height; }
 	float Get_AspectRatio()		{ return aspect_ratio; }

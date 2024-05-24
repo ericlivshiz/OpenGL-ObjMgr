@@ -23,7 +23,9 @@ public:
 private:
 	void RenderSquare(ObjMgr& objmgr);
 	void RenderCube(ObjMgr& objmgr);
+	void RenderSphere(ObjMgr& objmgr);
 	void RenderDemoCubes(ObjMgr& objmgr);
+	void RenderDemoSpheres(ObjMgr& objmgr);
 
 private:
 	bool frame_state; // 0 -> WireFrameOff. 1-> WireFramesOn.

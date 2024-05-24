@@ -114,10 +114,7 @@ public:
             glGenBuffers(1, &vbo);
             glGenBuffers(1, &ebo);
             
-            std::vector<glm::vec3> positions;
-            std::vector<glm::vec2> uv;
-            std::vector<glm::vec3> normals;
-            std::vector<unsigned int> indices;
+            
 
             const unsigned int X_SEGMENTS = 15;
             const unsigned int Y_SEGMENTS = 15;
@@ -244,6 +241,11 @@ public:
 	unsigned int indexCount;
 
     unsigned int texture1, texture2;
+
+    std::vector<glm::vec3> positions;
+    std::vector<glm::vec2> uv;
+    std::vector<glm::vec3> normals;
+    std::vector<unsigned int> indices;
 
   
 };
